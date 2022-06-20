@@ -1,0 +1,93 @@
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.about-title{
+    font-size: 60px;
+    position: relative;
+    margin-right: 770px;
+    display: inline;
+}
+
+.about-title2{
+    font-size: 40px;
+    position: relative;
+    margin-right: 670px;
+    display: inline;
+}
+
+.about-detail{
+    margin-top: 20px;
+    width: 980px;
+    height: 96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title-border{
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 80%;
+    left: 0;
+    bottom: -5px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.client-info{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    margin-right: 280px;
+    width: 722px;
+    height: 150px;
+}
+
+.client-img{
+    height: 150px;
+    width: 260px;
+    background-image: url(../images/about-client-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client-img2{
+    height: 150px;
+    width: 260px;
+    background-image: url(../images/about-client-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.client-par {
+    height: 102px;
+    width: 385px;
+    margin-left: 10px;
+    
+}
+
+.client-tag{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 176px;
+    height: 27px;
+    font-size: 20px;
+}

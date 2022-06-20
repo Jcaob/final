@@ -1,0 +1,841 @@
+.detail-aus{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.detail-aus2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+
+.detail-img-aus{
+    width: 981px;
+    height: 413px;
+    margin-top: 30px;
+    background-image: linear-gradient(
+    to bottom, 
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.detail-title-aus{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    left: 20px;
+}
+
+.detail-price-aus{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    font-size: 30px;
+    right: -200px;
+}
+
+.detail-img-small-aus{
+    width: 298px;
+    height: 347px;
+    margin-top: 30px;
+    margin: 30px 22px 0px 22px;
+    background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.detail-img-small-aus2{
+    width: 298px;
+    height: 347px;
+    margin-top: 30px;
+    margin: 30px 22px 0px 22px;
+    background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.detail-img-small-aus3{
+    width: 298px;
+    height: 347px;
+    margin-top: 30px;
+    margin: 30px 22px 0px 22px;
+    background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.detail-aus-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .detail-can{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .detail-can2{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+        
+        .detail-img-can{
+            width: 981px;
+            height: 413px;
+            margin-top: 30px;
+            background-image: linear-gradient(
+            to bottom, 
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+            ),
+            url(../images/tour/tour-08.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .detail-title-can{
+            position: absolute;
+            color: white;
+            font-size: 80px;
+            left: 20px;
+        }
+        
+        .detail-price-can{
+            position: absolute;
+            color: white;
+            bottom: 0;
+            font-size: 30px;
+            right: -200px;
+        }
+        
+        .detail-img-small-can{
+            width: 298px;
+            height: 347px;
+            margin-top: 30px;
+            margin: 30px 22px 0px 22px;
+            background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        
+        .detail-img-small-can2{
+            width: 298px;
+            height: 347px;
+            margin-top: 30px;
+            margin: 30px 22px 0px 22px;
+            background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        
+        .detail-img-small-can3{
+            width: 298px;
+            height: 347px;
+            margin-top: 30px;
+            margin: 30px 22px 0px 22px;
+            background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        
+        .detail-can-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+            
+        
+
+            .detail-eg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+                
+                .detail-eg2{
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    }
+                    
+                
+                .detail-img-eg{
+                    width: 981px;
+                    height: 413px;
+                    margin-top: 30px;
+                    background-image: linear-gradient(
+                    to bottom, 
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+                    ),
+                    url(../images/tour/tour-06.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+                }
+                
+                .detail-title-eg{
+                    position: absolute;
+                    color: white;
+                    font-size: 80px;
+                    left: 20px;
+                }
+                
+                .detail-price-eg{
+                    position: absolute;
+                    color: white;
+                    bottom: 0;
+                    font-size: 30px;
+                    right: -200px;
+                }
+                
+                .detail-img-small-eg{
+                    width: 298px;
+                    height: 347px;
+                    margin-top: 30px;
+                    margin: 30px 22px 0px 22px;
+                    background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                }
+                
+                .detail-img-small-eg2{
+                    width: 298px;
+                    height: 347px;
+                    margin-top: 30px;
+                    margin: 30px 22px 0px 22px;
+                    background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                }
+                
+                .detail-img-small-eg3{
+                    width: 298px;
+                    height: 347px;
+                    margin-top: 30px;
+                    margin: 30px 22px 0px 22px;
+                    background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                }
+                
+                .detail-eg-info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    }
+
+                    .detail-fr{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        }
+                        
+                        .detail-fr2{
+                            
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            
+                            }
+                            
+                        
+                        .detail-img-fr{
+                            width: 981px;
+                            height: 413px;
+                            margin-top: 30px;
+                            background-image: linear-gradient(
+                            to bottom, 
+                            rgba(0, 0, 0, 0.5),
+                            rgba(0, 0, 0, 0.5)
+                            ),
+                            url(../images/tour/tour-05.jpg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            position: relative;
+                        }
+                        
+                        .detail-title-fr{
+                            position: absolute;
+                            color: white;
+                            font-size: 80px;
+                            left: 20px;
+                        }
+                        
+                        .detail-price-fr{
+                            position: absolute;
+                            color: white;
+                            bottom: 0;
+                            font-size: 30px;
+                            right: -200px;
+                        }
+                        
+                        .detail-img-small-fr{
+                            width: 298px;
+                            height: 347px;
+                            margin-top: 30px;
+                            margin: 30px 22px 0px 22px;
+                            background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            
+                        }
+                        
+                        .detail-img-small-fr2{
+                            width: 298px;
+                            height: 347px;
+                            margin-top: 30px;
+                            margin: 30px 22px 0px 22px;
+                            background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            
+                        }
+                        
+                        .detail-img-small-fr3{
+                            width: 298px;
+                            height: 347px;
+                            margin-top: 30px;
+                            margin: 30px 22px 0px 22px;
+                            background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            
+                        }
+                        
+                        .detail-fr-info{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            }
+                        
+                
+                            .detail-is{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                }
+                                
+                                .detail-is2{
+                                    
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    
+                                    }
+                                    
+                                
+                                .detail-img-is{
+                                    width: 981px;
+                                    height: 413px;
+                                    margin-top: 30px;
+                                    background-image: linear-gradient(
+                                    to bottom, 
+                                    rgba(0, 0, 0, 0.5),
+                                    rgba(0, 0, 0, 0.5)
+                                    ),
+                                    url(../images/tour/tour-01.jpg);
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    position: relative;
+                                }
+                                
+                                .detail-title-is{
+                                    position: absolute;
+                                    color: white;
+                                    font-size: 80px;
+                                    left: 20px;
+                                }
+                                
+                                .detail-price-is{
+                                    position: absolute;
+                                    color: white;
+                                    bottom: 0;
+                                    font-size: 30px;
+                                    right: -200px;
+                                }
+                                
+                                .detail-img-small-is{
+                                    width: 298px;
+                                    height: 347px;
+                                    margin-top: 30px;
+                                    margin: 30px 22px 0px 22px;
+                                    background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    
+                                }
+                                
+                                .detail-img-small-is2{
+                                    width: 298px;
+                                    height: 347px;
+                                    margin-top: 30px;
+                                    margin: 30px 22px 0px 22px;
+                                    background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    
+                                }
+                                
+                                .detail-img-small-is3{
+                                    width: 298px;
+                                    height: 347px;
+                                    margin-top: 30px;
+                                    margin: 30px 22px 0px 22px;
+                                    background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    
+                                }
+                                
+                                .detail-is-info{
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    }
+
+                                    .detail-ja{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        }
+                                        
+                                        .detail-ja2{
+                                            
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            
+                                            }
+                                            
+                                        
+                                        .detail-img-ja{
+                                            width: 981px;
+                                            height: 413px;
+                                            margin-top: 30px;
+                                            background-image: linear-gradient(
+                                            to bottom, 
+                                            rgba(0, 0, 0, 0.5),
+                                            rgba(0, 0, 0, 0.5)
+                                            ),
+                                            url(../images/tour/tour-07.jpg);
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            position: relative;
+                                        }
+                                        
+                                        .detail-title-ja{
+                                            position: absolute;
+                                            color: white;
+                                            font-size: 80px;
+                                            left: 20px;
+                                        }
+                                        
+                                        .detail-price-ja{
+                                            position: absolute;
+                                            color: white;
+                                            bottom: 0;
+                                            font-size: 30px;
+                                            right: -200px;
+                                        }
+                                        
+                                        .detail-img-small-ja{
+                                            width: 298px;
+                                            height: 347px;
+                                            margin-top: 30px;
+                                            margin: 30px 22px 0px 22px;
+                                            background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            
+                                        }
+                                        
+                                        .detail-img-small-ja2{
+                                            width: 298px;
+                                            height: 347px;
+                                            margin-top: 30px;
+                                            margin: 30px 22px 0px 22px;
+                                            background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            
+                                        }
+                                        
+                                        .detail-img-small-ja3{
+                                            width: 298px;
+                                            height: 347px;
+                                            margin-top: 30px;
+                                            margin: 30px 22px 0px 22px;
+                                            background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            
+                                        }
+                                        
+                                        .detail-ja-info{
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            }
+                                        
+                                            .detail-nz{
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                }
+                                                
+                                                .detail-nz2{
+                                                    
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    
+                                                    }
+                                                    
+                                                
+                                                .detail-img-nz{
+                                                    width: 981px;
+                                                    height: 413px;
+                                                    margin-top: 30px;
+                                                    background-image: linear-gradient(
+                                                    to bottom, 
+                                                    rgba(0, 0, 0, 0.5),
+                                                    rgba(0, 0, 0, 0.5)
+                                                    ),
+                                                    url(../images/tour/tour-04.jpg);
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    position: relative;
+                                                }
+                                                
+                                                .detail-title-nz{
+                                                    position: absolute;
+                                                    color: white;
+                                                    font-size: 80px;
+                                                    left: 20px;
+                                                }
+                                                
+                                                .detail-price-nz{
+                                                    position: absolute;
+                                                    color: white;
+                                                    bottom: 0;
+                                                    font-size: 30px;
+                                                    right: -200px;
+                                                }
+                                                
+                                                .detail-img-small-nz{
+                                                    width: 298px;
+                                                    height: 347px;
+                                                    margin-top: 30px;
+                                                    margin: 30px 22px 0px 22px;
+                                                    background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    
+                                                }
+                                                
+                                                .detail-img-small-nz2{
+                                                    width: 298px;
+                                                    height: 347px;
+                                                    margin-top: 30px;
+                                                    margin: 30px 22px 0px 22px;
+                                                    background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    
+                                                }
+                                                
+                                                .detail-img-small-nz3{
+                                                    width: 298px;
+                                                    height: 347px;
+                                                    margin-top: 30px;
+                                                    margin: 30px 22px 0px 22px;
+                                                    background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    
+                                                }
+                                                
+                                                .detail-nz-info{
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    }
+
+                                                    .detail-uae{
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        }
+                                                        
+                                                        .detail-uae2{
+                                                            
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            
+                                                            }
+                                                            
+                                                        
+                                                        .detail-img-uae{
+                                                            width: 981px;
+                                                            height: 413px;
+                                                            margin-top: 30px;
+                                                            background-image: linear-gradient(
+                                                            to bottom, 
+                                                            rgba(0, 0, 0, 0.5),
+                                                            rgba(0, 0, 0, 0.5)
+                                                            ),
+                                                            url(../images/tour/tour-09.jpg);
+                                                            background-position: center;
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            position: relative;
+                                                        }
+                                                        
+                                                        .detail-title-uae{
+                                                            position: absolute;
+                                                            color: white;
+                                                            font-size: 80px;
+                                                            left: 20px;
+                                                        }
+                                                        
+                                                        .detail-price-uae{
+                                                            position: absolute;
+                                                            color: white;
+                                                            bottom: 0;
+                                                            font-size: 30px;
+                                                            right: -200px;
+                                                        }
+                                                        
+                                                        .detail-img-small-uae{
+                                                            width: 298px;
+                                                            height: 347px;
+                                                            margin-top: 30px;
+                                                            margin: 30px 22px 0px 22px;
+                                                            background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+                                                            background-position: center;
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            
+                                                        }
+                                                        
+                                                        .detail-img-small-uae2{
+                                                            width: 298px;
+                                                            height: 347px;
+                                                            margin-top: 30px;
+                                                            margin: 30px 22px 0px 22px;
+                                                            background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+                                                            background-position: center;
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            
+                                                        }
+                                                        
+                                                        .detail-img-small-uae3{
+                                                            width: 298px;
+                                                            height: 347px;
+                                                            margin-top: 30px;
+                                                            margin: 30px 22px 0px 22px;
+                                                            background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+                                                            background-position: center;
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            
+                                                        }
+                                                        
+                                                        .detail-uae-info{
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            }
+
+                                                            .detail-usa{
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                }
+                                                                
+                                                                .detail-usa2{
+                                                                    
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    
+                                                                    }
+                                                                    
+                                                                
+                                                                .detail-img-usa{
+                                                                    width: 981px;
+                                                                    height: 413px;
+                                                                    margin-top: 30px;
+                                                                    background-image: linear-gradient(
+                                                                    to bottom, 
+                                                                    rgba(0, 0, 0, 0.5),
+                                                                    rgba(0, 0, 0, 0.5)
+                                                                    ),
+                                                                    url(../images/tour/tour-02.jpg);
+                                                                    background-position: center;
+                                                                    background-repeat: no-repeat;
+                                                                    background-size: cover;
+                                                                    position: relative;
+                                                                }
+                                                                
+                                                                .detail-title-usa{
+                                                                    position: absolute;
+                                                                    color: white;
+                                                                    font-size: 80px;
+                                                                    left: 20px;
+                                                                }
+                                                                
+                                                                .detail-price-usa{
+                                                                    position: absolute;
+                                                                    color: white;
+                                                                    bottom: 0;
+                                                                    font-size: 30px;
+                                                                    right: -200px;
+                                                                }
+                                                                
+                                                                .detail-img-small-usa{
+                                                                    width: 298px;
+                                                                    height: 347px;
+                                                                    margin-top: 30px;
+                                                                    margin: 30px 22px 0px 22px;
+                                                                    background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+                                                                    background-position: center;
+                                                                    background-repeat: no-repeat;
+                                                                    background-size: cover;
+                                                                    
+                                                                }
+                                                                
+                                                                .detail-img-small-usa2{
+                                                                    width: 298px;
+                                                                    height: 347px;
+                                                                    margin-top: 30px;
+                                                                    margin: 30px 22px 0px 22px;
+                                                                    background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+                                                                    background-position: center;
+                                                                    background-repeat: no-repeat;
+                                                                    background-size: cover;
+                                                                    
+                                                                }
+                                                                
+                                                                .detail-img-small-usa3{
+                                                                    width: 298px;
+                                                                    height: 347px;
+                                                                    margin-top: 30px;
+                                                                    margin: 30px 22px 0px 22px;
+                                                                    background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+                                                                    background-position: center;
+                                                                    background-repeat: no-repeat;
+                                                                    background-size: cover;
+                                                                    
+                                                                }
+                                                                
+                                                                .detail-usa-info{
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    }
+                                        
+                                
+                        
+
+.detail-title{
+    margin-top: 20px;
+    font-size: 60px;
+    position: relative;
+    margin-right: 780px;
+    display: inline;
+}
+
+.detail-title-border{
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 80%;
+    left: 0;
+    bottom: -5px;
+}
+
+.detail-para{
+    margin-top: 30px;
+    width: 980px;
+    height: 96px;
+}
+
+.detail-book{
+    margin-top: 50px;
+    width: 133px;
+    height: 40px;
+    background-color: #79ADDC;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+

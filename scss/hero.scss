@@ -1,0 +1,60 @@
+.hero{
+   background-color: aqua;
+    height: 500px; 
+    background-image: linear-gradient(
+    to bottom, 
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    .cen-content{
+        
+        width: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color: white;
+            font-family: PNS;
+
+        }
+
+        p{
+            font-style: italic;
+            color: black;
+            
+        }
+
+        .heroC{
+            width: 484px;
+            height: 54;
+            text-align: center;
+            color: white;
+        }
+
+        .rm{
+            margin-top: 50px;
+            width: 122px;
+            height: 40px;
+            background-color: #79ADDC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: GSR;
+        }
+    }
+    
+}

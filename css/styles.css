@@ -1,0 +1,2358 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.nav-wrapper {
+  height: 90px;
+  width: 100%;
+}
+.nav-wrapper nav {
+  /*max-width: 980px;*/
+  width: 70%;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-wrapper nav .logo {
+  position: relative;
+  width: 96px;
+  height: 42px;
+  background-image: url(../images/logo/logo-black.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-wrapper nav .links {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav-wrapper nav .links a {
+  text-decoration: none;
+  color: black;
+}
+.nav-wrapper nav .links span {
+  color: #79ADDC;
+}
+
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+.nav-wrapper2 {
+  position: absolute;
+  height: 90px;
+  width: 100%;
+  margin-bottom: 400px;
+}
+.nav-wrapper2 nav {
+  /*max-width: 980px;*/
+  width: 70%;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: solid 2px white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-wrapper2 nav .logo2 {
+  position: relative;
+  width: 96px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-wrapper2 nav .links2 {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav-wrapper2 nav .links2 a {
+  text-decoration: none;
+  color: white;
+}
+.nav-wrapper2 nav .links2 span {
+  color: #79ADDC;
+}
+
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+.hero {
+  background-color: aqua;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/hero.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .cen-content {
+  width: 300px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero .cen-content h1 {
+  color: white;
+  font-family: PNS;
+}
+.hero .cen-content p {
+  font-style: italic;
+  color: black;
+}
+.hero .cen-content .heroC {
+  width: 484px;
+  height: 54;
+  text-align: center;
+  color: white;
+}
+.hero .cen-content .rm {
+  margin-top: 50px;
+  width: 122px;
+  height: 40px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: GSR;
+}
+
+.card {
+  height: 304px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.card-con {
+  position: absolute;
+  bottom: 50px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-con2 {
+  position: absolute;
+  bottom: 50px;
+  right: 450px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-con3 {
+  position: absolute;
+  bottom: 50px;
+  left: 450px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-learn {
+  margin-top: 50px;
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.card-title {
+  color: white;
+  font-size: 60px;
+  font-family: PNS;
+}
+
+.card-price {
+  color: white;
+  font-size: 30px;
+  font-family: PNS;
+}
+
+@media (max-width: 1700px) {
+  .card-con2 {
+    right: 300px;
+  }
+
+  .card-con3 {
+    left: 300px;
+  }
+}
+.forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forms-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.form-title {
+  margin-right: 620px;
+  font-family: PNS;
+}
+
+.input {
+  height: 58px;
+  width: 344px;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input2 {
+  height: 58px;
+  width: 453px;
+  margin-left: 10px;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-cal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.form-cal-title {
+  margin-top: 40px;
+}
+
+.input3 {
+  height: 58px;
+  width: 698px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 55px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.icon2 {
+  background-image: url(../images/calendar.svg);
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  right: 20px;
+  top: 39px;
+}
+
+.input4 {
+  height: 58px;
+  width: 698px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.icon3 {
+  background-image: url(../images/down-arrow.svg);
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  right: 60px;
+  top: 39px;
+}
+
+.icon4 {
+  background-image: url(../images/down-arrow.svg);
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  left: 180px;
+  top: 39px;
+}
+
+.icon5 {
+  background-image: url(../images/down-arrow.svg);
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  left: 460px;
+  top: 39px;
+}
+
+.form-detail-title {
+  margin-top: 40px;
+}
+
+.input5 {
+  height: 58px;
+  width: 103px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 72px;
+  margin-right: 50px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-message {
+  height: 192px;
+  width: 818px;
+  padding: 10px;
+  margin-top: 20px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+.form-message::-webkit-input-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.form-message::-moz-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.form-message:-ms-input-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.form-message::-ms-input-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.form-message::placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.submit {
+  margin-top: 50px;
+  width: 813px;
+  height: 61px;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: GSR;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+footer {
+  height: 100px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer p {
+  margin-bottom: -40px;
+  font-family: GSR;
+  font-size: 16px;
+  color: white;
+}
+footer .logo {
+  position: relative;
+  width: 96px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .c {
+  height: 16px;
+  width: 226;
+  font-size: 12px;
+  color: white;
+}
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 123px;
+  height: 32px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .social .fb {
+  height: 31.22px;
+  width: 31.22px;
+  background-image: url(../images/social-media/facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .social .ig {
+  height: 31.22px;
+  width: 31.22px;
+  background-image: url(../images/social-media/instagram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .social .tw {
+  height: 31.22px;
+  width: 31.22px;
+  background-image: url(../images/social-media/twitter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  margin-top: 200px;
+}
+
+@media (max-width: 1140px) {
+  footer .c {
+    font-size: 20px;
+  }
+}
+.about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  margin-top: 60px;
+}
+
+.about-title {
+  font-size: 60px;
+  position: relative;
+  margin-right: 770px;
+  display: inline;
+}
+
+.about-title2 {
+  font-size: 40px;
+  position: relative;
+  margin-right: 670px;
+  display: inline;
+}
+
+.about-detail {
+  margin-top: 20px;
+  width: 980px;
+  height: 96;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-title-border {
+  border-bottom: 2px solid black;
+  position: absolute;
+  width: 80%;
+  left: 0;
+  bottom: -5px;
+}
+
+.client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  margin-top: 200px;
+}
+
+.client-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  margin-right: 280px;
+  width: 722px;
+  height: 150px;
+}
+
+.client-img {
+  height: 150px;
+  width: 260px;
+  background-image: url(../images/about-client-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.client-img2 {
+  height: 150px;
+  width: 260px;
+  background-image: url(../images/about-client-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.client-par {
+  height: 102px;
+  width: 385px;
+  margin-left: 10px;
+}
+
+.client-tag {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 176px;
+  height: 27px;
+  font-size: 20px;
+}
+
+.tours-card {
+  height: 304px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  margin-top: 50px;
+}
+
+.tours-link {
+  text-decoration: none;
+  color: white;
+}
+
+.tours-card-con {
+  position: absolute;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con2 {
+  position: absolute;
+  right: 350px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con3 {
+  position: absolute;
+  left: 350px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con4 {
+  position: absolute;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con5 {
+  position: absolute;
+  right: 350px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con6 {
+  position: absolute;
+  left: 350px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con7 {
+  position: absolute;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con8 {
+  position: absolute;
+  right: 350px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-con9 {
+  position: absolute;
+  left: 350px;
+  z-index: 1;
+  height: 304px;
+  width: 236px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-card-learn {
+  margin-top: 50px;
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.tours-card-title {
+  color: white;
+  font-size: 60px;
+}
+
+.tours-card-price {
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 1450px) {
+  .tours-card-con2 {
+    right: 300px;
+  }
+
+  .tours-card-con3 {
+    left: 300px;
+  }
+
+  .tours-card-con5 {
+    right: 300px;
+  }
+
+  .tours-card-con6 {
+    left: 300px;
+  }
+
+  .tours-card-con8 {
+    right: 300px;
+  }
+
+  .tours-card-con9 {
+    left: 300px;
+  }
+}
+.detail-aus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-aus2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-aus {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-aus {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-aus {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-aus {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-aus2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-aus3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-aus-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-can {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-can2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-can {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-can {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-can {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-can {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-can2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-can3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-can-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-eg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-eg2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-eg {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-eg {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-eg {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-eg {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-eg2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-eg3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-eg-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-fr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-fr2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-fr {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-fr {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-fr {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-fr {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-fr2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-fr3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-fr-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-is {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-is2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-is {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-is {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-is {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-is {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-is2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-is3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-is-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-ja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-ja2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-ja {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-ja {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-ja {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-ja {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-ja2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-ja3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-ja-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-nz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-nz2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-nz {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-nz {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-nz {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-nz {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-nz2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-nz3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-nz-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-uae {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-uae2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-uae {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-uae {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-uae {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-uae {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-uae2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-uae3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-uae-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-usa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-usa2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-img-usa {
+  width: 981px;
+  height: 413px;
+  margin-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail-title-usa {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  left: 20px;
+}
+
+.detail-price-usa {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 30px;
+  right: -200px;
+}
+
+.detail-img-small-usa {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-usa2 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-img-small-usa3 {
+  width: 298px;
+  height: 347px;
+  margin-top: 30px;
+  margin: 30px 22px 0px 22px;
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detail-usa-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-title {
+  margin-top: 20px;
+  font-size: 60px;
+  position: relative;
+  margin-right: 780px;
+  display: inline;
+}
+
+.detail-title-border {
+  border-bottom: 2px solid black;
+  position: absolute;
+  width: 80%;
+  left: 0;
+  bottom: -5px;
+}
+
+.detail-para {
+  margin-top: 30px;
+  width: 980px;
+  height: 96px;
+}
+
+.detail-book {
+  margin-top: 50px;
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.special-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 590px;
+}
+
+.special-info2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 550px;
+}
+
+.special-title {
+  margin-top: 40px;
+  font-size: 30px;
+  position: relative;
+  margin-right: 810px;
+  display: inline;
+}
+
+.special-title2 {
+  margin-top: 40px;
+  font-size: 30px;
+  position: relative;
+  display: inline;
+  bottom: 140px;
+}
+
+.special-title-border {
+  border-bottom: 2px solid black;
+  position: absolute;
+  width: 80%;
+  left: 0;
+  bottom: -5px;
+}
+
+.special-img1 {
+  height: 287px;
+  width: 199px;
+  margin-top: 20px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.special-img2 {
+  height: 287px;
+  width: 199px;
+  margin-top: 20px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.special-para {
+  width: 290px;
+  height: 131px;
+  position: absolute;
+  right: -10px;
+  top: 90px;
+}
+
+.special-button {
+  position: absolute;
+  right: 140px;
+  bottom: 0px;
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.special-button2 {
+  position: absolute;
+  right: 180px;
+  bottom: 0px;
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 150px;
+}
+
+.blog2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.date {
+  height: 60px;
+  width: 60px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 230px;
+  bottom: 198px;
+  color: white;
+}
+
+.blog-title {
+  margin-top: 40px;
+  font-size: 30px;
+  position: relative;
+  margin-right: 810px;
+  top: 80px;
+  display: inline;
+}
+
+.blog-title-border {
+  border-bottom: 2px solid black;
+  position: absolute;
+  width: 80%;
+  left: 0;
+  bottom: -5px;
+}
+
+.blog-img {
+  height: 259px;
+  width: 900px;
+  margin-top: 20px;
+  background-image: url(../images/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-detail {
+  width: 245px;
+  height: 22px;
+  position: absolute;
+  bottom: -40px;
+  left: 320px;
+  font-size: 15px;
+}
+
+.blog-title-cool {
+  width: 380px;
+  height: 64px;
+  position: absolute;
+  bottom: -130px;
+  left: 320px;
+  color: #79ADDC;
+  font-size: 13px;
+}
+
+.contact-overlord {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 50px;
+  bottom: -225px;
+}
+
+.contact-img {
+  height: 400px;
+  width: 442px;
+  margin-top: 20px;
+  background-image: url(../images/google.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 620px;
+}
+
+.contact-detail {
+  width: 400px;
+  height: 161px;
+  margin-top: 20px;
+  margin-right: 670px;
+}
+
+.contact-title {
+  margin-top: 40px;
+  font-size: 30px;
+  position: relative;
+  margin-right: 870px;
+  display: inline;
+}
+
+.contact-input {
+  height: 60px;
+  width: 529px;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.contact-input2 {
+  height: 199px;
+  width: 529px;
+  padding: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.contact-input2::-webkit-input-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.contact-input2::-moz-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.contact-input2:-ms-input-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.contact-input2::-ms-input-placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.contact-input2::placeholder {
+  position: absolute;
+  bottom: 160px;
+}
+
+.contact-title-border {
+  border-bottom: 2px solid black;
+  position: absolute;
+  width: 80%;
+  left: 0;
+  bottom: -5px;
+}
+
+.contact-button {
+  width: 167px;
+  height: 60px;
+  background-color: #79ADDC;
+  position: absolute;
+  bottom: -75px;
+  left: 0;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+@font-face {
+  font-family: GSR;
+  src: url(../fonts/GillSans.ttf);
+}
+@font-face {
+  font-family: PNS;
+  src: url(../fonts/ProximaNova-Light-webfont.woff);
+}

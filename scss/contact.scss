@@ -1,0 +1,99 @@
+.contact-overlord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 50px;
+        bottom: -225px;
+
+}
+
+
+.contact-img{
+        height: 400px;
+        width: 442px;
+        margin-top: 20px;
+        background-image: url(../images/google.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 620px;
+}
+
+.contact-detail{
+    width: 400px;
+    height: 161px;
+    margin-top: 20px;
+    margin-right: 670px;
+}
+
+
+.contact-title{
+    margin-top: 40px;
+    font-size: 30px;
+    position: relative;
+    margin-right: 870px;
+    display: inline;
+}
+
+.contact-input{
+    height: 60px;
+    width: 529px;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 30px;
+    
+}
+.contact-input2{
+    height: 199px;
+    width: 529px;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 30px;
+    
+}
+
+.contact-input2::placeholder{
+    position: absolute;
+    bottom: 160px;
+}
+
+.contact-title-border{
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 80%;
+    left: 0;
+    bottom: -5px;
+}
+
+.contact-button{
+    width: 167px;
+    height: 60px;
+    background-color: #79ADDC;
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

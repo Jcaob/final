@@ -1,0 +1,152 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms-row{
+    display: flex;
+    position: relative;
+}
+
+.form-title{
+    margin-right: 620px;
+    font-family: PNS;
+}
+.input{
+    height: 58px;
+    width: 344px;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+
+}
+.input2{
+    height: 58px;
+    width: 453px;
+    margin-left: 10px;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-cal{
+    display: flex;
+    position: relative;
+}
+
+.form-cal-title{
+    margin-top: 40px;
+}
+
+
+.input3{
+    height: 58px;
+    width: 698px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 55px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.icon2{
+    background-image: url(../images/calendar.svg);
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    right: 20px;
+    top: 39px
+   
+   }
+.input4{
+    height: 58px;
+    width: 698px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.icon3{
+    background-image: url(../images/down-arrow.svg);
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    right: 60px;
+    top: 39px
+   
+   }
+
+   .icon4{
+    background-image: url(../images/down-arrow.svg);
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    left: 180px;
+    top: 39px
+   
+   }
+
+   .icon5{
+    background-image: url(../images/down-arrow.svg);
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    left: 460px;;
+    top: 39px
+   
+   }
+
+.form-detail-title{
+    margin-top: 40px;
+}
+
+
+.input5{
+    height: 58px;
+    width: 103px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 72px;
+    margin-right: 50px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-message{
+    height: 192px;
+    width: 818px;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+
+    
+}
+.form-message::placeholder {
+    position: absolute;
+    bottom: 160px;
+}
+.submit{
+    margin-top: 50px;
+    width: 813px;
+    height: 61px;
+    background-color: #79ADDC;
+    border-radius: 30px;
+    display: flex;
+    font-family: GSR;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
